@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!--Página de error 403 --Acceso prohibido-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"/>
+    <head>
+        <title>Acceso Denegado</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div>
+            <p>Acceso Denegado.</p>
+            <p>No tiene permiso para acceder a está página o ejecutar esta acción.</p>
+            <a th:href="@{/}">[[#{in}]]</a>
+        </div>
+    </body>
+</html>
